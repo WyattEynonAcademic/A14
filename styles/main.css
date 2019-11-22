@@ -1,0 +1,183 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px #931420;
+	
+	background-color: #FFFDED;
+}
+.current {
+	color: yellow;
+}
+#nav_menu ul {
+	list-style-type: none;
+	position: relative;
+}
+#nav_menu ul li {float: left;}
+
+#nav_menu ul li a {
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {color: yellow;}
+
+#nav_menu ul ul {
+	top: 100%;
+    display: none;
+    position: absolute;
+    
+}
+#nav_menu ul li:hover > ul {display: block;}
+
+#nav_menu ul ul li {
+	float: none;
+}
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+section{
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+aside{
+	width: 215px;
+	float: right;
+	padding-bottom: 20px;
+}
+header img {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img{
+	padding-bottom: 1em;
+}
+
+header {
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	border-bottom: solid 3px #931420;
+	background-image: linear-gradient(to bottom right,#f6bb73, #f6bb73 30%,white 50%,#f6bb73 80%)
+}
+#Speakers {
+	border-top: solid 3px #931420;
+	border-bottom: solid 3px #931420;
+}
+
+
+h2{
+	font-size: 170%;
+	color: #800000;
+}
+#Shadow {
+	text-shadow: 1px 1px #800000 ;
+}
+h3 {
+	font-size: 105%;
+}
+a:hover {
+	font-style: italic;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+	
+	
+}
+
+
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-bottom: 2px solid #800000;
+	border-top: 2px solid #800000;
+
+}
+article img {
+	float: right;
+	margin-top: 5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	border: 1px solid black;
+}
+article h2{
+	padding-top: 0;
+
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+
+
+main h1{
+	
+}
+main h2{
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+}
+main img {
+	padding-bottom: 1em;
+}
+main p{
+	padding-bottom: .5em;
+}
+main blockquote{
+	font-style: italic;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+main ul{
+	padding-bottom: 0.25em;
+	padding-left: 1.25em;
+}
+main li{
+	padding-bottom: 0.35em;
+}
+
+/* the styles for the footer */
+
+p {
+	text-align: center;
+}
+footer {
+	background-color: darkred;
+	clear: both;
+}
+footer p{
+	padding-bottom: 1em;
+	padding-top: 1em;
+	color: white;
+	
+}
+html {
+	background-color: white;
+}
